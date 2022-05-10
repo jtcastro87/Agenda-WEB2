@@ -88,4 +88,10 @@ header .contenedor a:hover{
 	font-family: "Roboto", sans-serif;
 }
 
+h2{
+	display: block;
+	width: 20%;
+	margin: auto; 
+}
+
 
