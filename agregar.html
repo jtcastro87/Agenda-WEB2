@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Agregar</title>
+	<link rel="stylesheet" href="font/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link href="css/agregarEstilos.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+	
+	
+	<header class="">
+		<div class="contenedor">
+			<!-- Logo -->
+			<div class="logo"><img src="img/agenda.png" alt="logo" title="Logo Agenda" /></div>
+			<!--Aqui comienza el nav-->
+			<nav class="" >
+				<a href="index.html">Inicio</a>
+				<a href="agregar.html">Agregar</a>
+				<a href="mostrar.html">Mostrar</a>
+				<a href="actualizar.html">Actualizar</a>
+				<a href="eliminar.html">Eliminar</a>
+				</ul>
+			</nav> 
+		</div>
+	</header>
+		
+	
+	<section class="main">
+		
+		<div class="contenedor2">
+			
+			<h1 class="">Agregando Nuevo Contacto</h1>
+		
+			<form action="index.html" method="get" id=""  onsubmit="return setDatos()">
+		
+				<div class="input" id="campNom">
+					<span class="icons"><i class="fa fa-user" aria-hidden="true"></i></span>
+					<input type="text" class="" name="nombre" value=""  id="nom" placeholder="Nombre" required/>
+				</div>
+				
+				<div class="input">
+					<span class="icons"><i class="fa fa-user" aria-hidden="true"></i></span>
+					<input type="text" name="apellido" value="" id="ape" placeholder="Apellido" required/>
+				</div>
+				
+				
+				<div class="input">
+					<span class="icons"><i class="fa fa-phone" aria-hidden="true"></i></span>
+					<input type="tel" name="telefono" value="" id="tel" placeholder="Telefono" required/>
+				</div>
+				
+				<div class="botones">
+						
+					<input class="guardar" type="submit" name="guardar" value="Guardar" id="guardar" />
+					<input type="reset" name="limpiar" value="Limpiar" id="limpiar"  />
+					<input type="button" name="cancelar" value="Cancelar" id="cancelar" onclick = "javascript:window.location='index.html'" />
+					
+				</div>	
+			
+			</form>
+	
+			
+		</div>
+		
+		
+	</section>
+	
+	<script src="js/guardar.js" type="text/javascript"></script>
+	
+	
+</body>
+</html>

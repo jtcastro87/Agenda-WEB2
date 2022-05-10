@@ -1,0 +1,124 @@
+
+/* estilos generales */
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: "Roboto",sans-serif;
+	background: #dfe6e9 ;
+}
+
+header{
+	width: 100%;
+	background: #1B1464;
+	border-bottom: 3px solid #ffff;
+}
+
+header .contenedor{
+	
+	width: 80%;
+	margin: auto;
+	padding: 5px 0px;
+	display: flex;
+	align-items: center;
+}
+
+header .contenedor .logo{
+	width: 20%;
+}
+
+header .contenedor .logo img{
+	width: 100px;
+}
+
+header .contenedor nav {
+	width: 80%;
+	list-style:none;
+	display: flex;
+	flex-direction: row;
+}
+
+header .contenedor a{
+	color: #FFFFFF;
+	padding: 30px 10px;
+	font-size: 17px;
+	text-align:center;
+	letter-spacing: 3px;
+	text-decoration: none;
+	display: inline-block;
+	flex-grow: 1;
+}
+
+header .contenedor a:hover{
+
+	background:rgba(48, 51, 107,1.0);
+	transition: all .5s ease-in-out;
+}
+
+.main{
+
+	width: 80%;
+	margin: auto;
+} 
+
+.main h1{
+	
+	font-size: 25px;
+	padding-bottom: 30px;
+	margin-top: 60px;
+	margin-bottom: 30px ;
+	letter-spacing: 5px;
+	border-bottom:1px solid rgba(178, 190, 195,1.0);
+	text-transform: uppercase;
+	font-family: "Roboto", sans-serif;
+}
+
+.main .scrollTabla{
+   width:100%;
+   overflow-y:scroll;
+   height:340px;
+}
+
+.main table{
+	
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.main table thead tr th{
+
+		color: #ffff;
+		padding: 5px;
+		letter-spacing:3px;
+		background: #1B1464;
+		border: 1px solid rgba(149, 175, 192,1.0);
+}
+
+.main table tbody tr:nth-child(even){
+	
+	background: rgba(178, 190, 195,1.0);
+}
+
+.main table tbody tr td{
+	padding: 5px;
+}
+
+.main .enlace{
+	
+	color: #ffff;
+	margin-top: 30px;
+	padding: 10px 15px;
+	text-decoration:none;
+	display: inline-block;
+	background: rgba(0, 184, 148,1.0);
+}
+
+.main .enlace:hover{
+	background: rgba(85, 239, 196,1.0);
+	transition: all .5s ease-in-out;
+}
+
+
